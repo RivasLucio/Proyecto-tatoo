@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #1C1A1A;
+}
+
+.nav-container {
+    height: 80px;
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;    
+    border-bottom: solid 1px #CF9B5E;
+
+}
+
+.nav-container img {
+    width: 80%;
+    height: 98%;
+}
+.logo-container {
+    width: 100px;
+    height: 95%;
+    margin: 0 10px;
+    margin-left: 20px;
+    transition: 1s;
+}
+.logo-container:hover {
+    transform: scale(1.1);
+}
+
+
+.nav-ul a {
+    color: #CF9B5E;   
+}
+    
+.nav-ul ul {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-redes {
+    margin-right: 20px;
+}
+.nav-redes i{
+    color: #F1B671;
+    font-weight: 500;
+    font-size: 22px;
+}
+.nav-redes a {
+    margin: 0 10px;
+}
+
+.target1-container {
+    width: 100%;
+    background: url(../img/Fondo1.jpg) no-repeat center center/cover; 
+    width: 100%;
+    height: 750px;
+}
+
+.target1-container_info {
+    color: #F1B671;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   
+
+}
+.target1-container_info h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    margin-top: 230px;
+}
+
+.target1-container_info h2 {
+    color: #CF9B5E;
+    font-size: 35px;
+    margin: 0 auto;
+    
+}
+
+
+
+.servicios-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: #CF9B5E;
+}
+
+.servicios-target {
+    width: 28%;
+    height: 550px;
+}
+.servicios-target img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+
+}
+
+
+.servicios-target h2 {
+    font-size: 35px;
+}
+
+.servicios-target a {
+    color: #F1B671;
+    background: #252323;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.boton {
+    margin-top: 10px;
+}
+
+.servicios-target a:hover {
+    background-color: #CF9B5E;
+    color: #252323;
+}
+
+
+
+
+
+
+
+
+
+.footer-container {
+    width: 100%;
+    height: 120px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer-redes {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-redes a{
+    color: #808080;
+    font-size: 28px;
+    transition: 0.6s;
+}
+
+.footer-redes a:hover {
+   font-size: 38px;
+   color: #F1B671;
+}
+
+.footer-texto {
+    color: #808080;
+    height: 10px;
+}
+
